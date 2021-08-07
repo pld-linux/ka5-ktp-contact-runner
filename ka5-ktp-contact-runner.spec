@@ -35,6 +35,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Telepathy Contact KRunner plugin.
 
+%description -l pl.UTF-8
+Wtyczka Telepathy Contact dla KRunnera.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
