@@ -1,15 +1,15 @@
-%define		kdeappsver	21.08.3
+%define		kdeappsver	21.12.0
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		ktp-contact-runner
 Summary:	ktp-contact-runner
 Name:		ka5-%{kaname}
-Version:	21.08.3
+Version:	21.12.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	ef3784089dd14e1fb4a7360dbe554adb
+# Source0-md5:	8a31987c5e4a7d8c184e853106054918
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5DBus-devel
